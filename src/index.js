@@ -1,11 +1,7 @@
 let vitorias = 105;
 let derrotas = 20;
 let ranking = vitorias - derrotas;
-let nivel = "";
-    
-// ["Ferro, Bronze, Prata, Ouro, Diamante, Lendário, Imortal"];
-
-
+let nivel = "";    
 
 if (vitorias - derrotas < 10) {
     // console.log("Ranking Ferro")
