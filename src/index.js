@@ -3,6 +3,7 @@ let derrotas = 20;
 let ranking = vitorias - derrotas;
 let nivel = "";    
 
+//#region 
 if (vitorias - derrotas < 10) {
     // console.log("Ranking Ferro")
     nivel = "Ferro";
@@ -35,6 +36,6 @@ else {
     String(nivel) = "Desconhecido";
     return null;
 }
-
+//#endregion
 console.log("O Herói tem saldo de " + ranking + " vitórias e esta no nível " + nivel + " do ranking.");
 
